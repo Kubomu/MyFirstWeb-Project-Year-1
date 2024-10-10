@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 2rem;
+  }
+  
+  .confirmation {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .confirmation h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .confirmation p {
+    margin-bottom: 2rem;
+  }
+  
+  .confirmation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .confirmation li {
+    margin-bottom: 1rem;
+  }
+  
+  .confirmation .event-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ea4c89;
+  }
+  
+  .confirmation .event-date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .confirmation .event-time {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .confirmation .event-seats {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .confirmation .event-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ea4c89;
+  }
+  
+  .confirmation a {
+    color: #ea4c89;
+    text-decoration: none;
+  }
+  
+  .confirmation a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .confirmation {
+      max-width: 100%;
+    }
+  }

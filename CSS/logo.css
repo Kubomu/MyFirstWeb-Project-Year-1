@@ -1,0 +1,29 @@
+
+.logo1 {
+    max-width: 80px;
+    position: absolute;
+    top: 7.5px;
+    left: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    max-height: 100px;
+}
+
+.logo2 {
+    max-width: 80px;
+    position: absolute;
+    right: 10px;
+    top: 7.5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    max-height: 100px;
+
+}
+  
+.logo1, .logo2{
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.logo1:hover, .logo2:hover {
+    transform: scale(1.1); /* Increase the size of the logo by 10% */
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Tickets</title>
+    <link rel="stylesheet" href="ticket.css">
+    <link rel="stylesheet" href="logo.css">
+</head>
+<body>
+    <header>
+        <a href="HomePage.html">
+            <img src="logo.jpg" alt="Hoops Basketball Team Logo" class="logo1"/>
+       </a>
+      
+       <img src="nba.jpg" alt="NBA Logo" class="logo2"/>
+        <h1>Buy Your Tickets Now</h1>
+    </header>
+    
+
+    <h2>Welcome to the official tickets page for our team!</h2>  
+    <marquee behavior="alternate" direction="left" scrollamount="5s" scrolldelay="100" loop="3" ><B>Get a free t-shirt with every ticket purchase!!!!</B></marquee>
+    <From>Here, you can easily purchase tickets for all of our upcoming games and be a part of the electrifying atmosphere that only a live event can provide. From the heart-pounding excitement of the opening tip-off to the thrill of the final buzzer, there's nothing quite like experiencing the game in person.</p>
+    <p>By purchasing tickets through our official page, you'll have access to the best seats in the house, exclusive offers and promotions, and a seamless purchasing process that will have you cheering in no time.</p>
+        
+    <h3>So what are you waiting for? Browse our available games, select your seats, and get ready to be a part of the action. We can't wait to see you at the next game!</h3>
+
+
+    <section id="ticket-form">
+       
+
+            <h2>Fill Out the Form to Purchase Your Tickets</h2>
+            <div class="ticket">
+            <form action="purchase-confirmation.html" method="post">
+                <label for="name">Name:</label>
+                <input placeholder="Surname" type="text" id="name" name="name" required>
+                <br>
+                <br>
+    
+                <label for="email">Email:</label>
+                <input placeholder="Valid E-mail" type="email" id="email" name="email" required>
+                <br>
+                <br>
+    
+                <label for="quantity">Number of Tickets:</label>
+                <input  type="number" id="quantity" name="quantity" min="1" max="10" required>
+                <br>
+                <br>
+    
+                <label for="game">Select a Game:</label>
+                <select id="game" name="game" required>
+                    <option value="1">Game 1: Hoops vs. Raptors - January 15, 2023</option>
+                    <option value="2">Game 2: Hoops vs. Bulls - January 20, 2023</option>
+                    <option value="3">Game 3: Hoops vs. Lakers - January 25, 2023</option>
+                    <!-- Add more games here -->
+                </select>
+                
+                <br>
+                <br>
+    
+                <label for="seats">Select Seats:</label>
+                <select id="seats" name="seats" required>
+                    <option value="1">Lower Level - $50 per seat</option>
+                    <option value="2">Mid Level - $35 per seat</option>
+                    <option value="3">Upper Level - $25 per seat</option>
+                </select><br>
+
+                <br>
+                <br>
+    
+                <link rel="stylesheet"><input  type="submit" value="Purchase Tickets">
+                
+
+            </div>
+            </form>
+        </section>
+
+        <section id="customer-support"></section>
+            <h2>Customer Support</h2>
+            <p>If you have any questions or need assistance with your ticket purchase, please contact us:</p>
+            <ul>
+                <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+                <br>
+                <li><strong>Email:</strong> support@hoops.com</li>
+                <br>
+                <li><strong>Live Chat:</strong> <button id="live-chat-button">Start Chat</button></li>
+            </ul>
+        </section>
+        <h2 style="margin-top: 50px; text-decoration: underline"><center>Our Sponsors</center></h2>
+                <div class="sponsors-container">
+                    <a href="https://www.mercedes-amg.com/" target="_blank">
+                        <img src="benz.jpg" alt="Benz Sponsor Logo" class="sponsor-logo" height="50"/>
+                    </a>
+                    <a href="https://www.redbull.com/us/en" target="_blank">
+                        <img src="redbull.jpg" alt="Red Bull Sponsor Logo" class="sponsor-logo" height="50"/>
+                    </a>
+                    <a href="https://www.nba.com/" target="_blank">
+                        <img src="nba.jpg" alt="NBA Sponsor Logo" class="sponsor-logo" height="50"/>
+                    </a>
+                    <a href="https://www.ferrari.com/" target="_blank">
+                        <img src="ferrari.jpg" alt="Ferrari Sponsor Logo" class="sponsor-logo" height="50"/>
+                    </a>
+                    <a href="https://gu.ac.ug" target="_blank">
+                        <img src="Gulu_University_logo.png" alt="Gulu University logo" height="50">
+                    </a>
+                    <a href="https://www.nike.com/" target="_blank">
+                        <img src="nike.jpg" alt="Nike Sponsor Logo" class="sponsor-logo" height="50"/>
+                    </a> 
+                    
+                </div>
+
+        </div>
+        <footer>
+            <p>&copy; 2024 Hoops Basketball Team. All rights reserved.</p>
+        </footer>
+      
+</body>
+</html>
