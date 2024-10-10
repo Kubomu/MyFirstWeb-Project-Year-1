@@ -13,6 +13,19 @@ The **Hoop's Basketball Website** is a web project designed to showcase projects
 - HTML
 - CSS
 
+## Screenshots
+### Homepage
+![Hoop's Basketball Homepage](./Screenshots/Snap1.png)
+
+### Player Page
+![Player Page](./Screenshots/Snap3.png)
+
+### Video Section
+![Video Section](./Screenshots/Snap2.png)
+
+### Sponsors 
+![Sponsors](./Screenshots/Screenshot.png)
+
 
 ## How to Use
 1. Clone the repository to your local machine:
